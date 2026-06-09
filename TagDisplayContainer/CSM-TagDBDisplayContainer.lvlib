@@ -5,8 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Support" Type="Folder">
+		<Item Name="Clear Errors.vi" Type="VI" URL="../_support/Clear Errors.vi"/>
 		<Item Name="DefaultPage.vi" Type="VI" URL="../DefaultPage.vi"/>
 		<Item Name="Query Page VI Path.vi" Type="VI" URL="../_support/Query Page VI Path.vi"/>
 	</Item>
-	<Item Name="CSM-TagDBDisplayWnd.vi" Type="VI" URL="../CSM-TagDBDisplayWnd.vi"/>
+	<Item Name="TagDisplayContainer.vi" Type="VI" URL="../TagDisplayContainer.vi"/>
 </Library>
