@@ -153,6 +153,20 @@
 
 ---
 
+## 配置说明
+
+> 推荐使用 [CSM INI Static Variable Support](https://github.com/NEVSTOP-LAB/CSM-INI-Static-Variable-Support) 管理配置参数，通过 `${变量名}` 语法在消息中直接引用 INI 键值。
+
+### INI 文件配置
+
+```ini
+[ViewContainer]
+SearchingPath = _Example\panels    ; 子 VI 页面搜索路径
+DefaultView   = SubVIEW1           ; 启动时默认加载的视图名称
+```
+
+---
+
 ## 调用限制与注意事项
 
 > [!IMPORTANT]
